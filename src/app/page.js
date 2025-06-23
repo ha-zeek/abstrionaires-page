@@ -25,9 +25,11 @@ export default function Home() {
 				<SwiperSlide className="h-screen w-full bg-black flex items-center justify-center">
 					<Hero />
 				</SwiperSlide>
+
 				<SwiperSlide className="h-screen w-full bg-black flex items-center justify-center">
 					<Story />
 				</SwiperSlide>
+				
 				<SwiperSlide className="h-screen w-full bg-black flex items-center justify-center">
 					<Ecosystem />
 				</SwiperSlide>

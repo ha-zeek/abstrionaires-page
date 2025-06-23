@@ -13,11 +13,10 @@ const spaceGrotesk = Space_Grotesk({
 
 export default function Story() {
     return (
-      <div>
+      <div className="">
         <Navbar />
-        <div className="relative min-h-screen flex items-center justify-center">
-          <div className="w-full max-w-6xl mx-auto px-4">
-            <PixelTransition
+        <div className="relative flex items-center justify-center h-screen w-screen">
+            <PixelTransition 
               firstContent={
                 <div>
                   <Image 
@@ -66,12 +65,12 @@ export default function Story() {
                   </div>
                 </div>
               }
-              gridSize={12}
+              gridSize={8}
               pixelColor='#ffffff'
               animationStepDuration={0.4}
               className="custom-pixel-card"
             />
-          </div>
+          
         </div>
       </div>
     );
